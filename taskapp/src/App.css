@@ -1,0 +1,111 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  padding: 20px 12px;
+  border-radius: 15px;
+  border: 1px solid gray;
+}
+
+.taskText {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.taskCreateForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.taskCreateDiv {
+  width: 390px;
+}
+
+.task-update {
+  width: 100%;
+}
+.taskLabel {
+  margin: 10px 0px;
+  font-size: 16px;
+}
+
+.taskInput {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.createButton {
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.updateButton {
+  background-color: blueviolet;
+}
+
+.createButton:hover {
+  background-color: rgb(3, 116, 3);
+}
+
+.updateButton:hover {
+  background-color: rgb(121, 32, 204);
+}
+.taskList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.taskView {
+  border: 1px solid green;
+  border-radius: 30px;
+  padding: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.taskTitle {
+  margin-bottom: 5px;
+}
+
+.taskDelete {
+  padding: 5px;
+  font-size: 15px;
+  width: 60px;
+  height: 32px;
+  border: none;
+  border-radius: 30px;
+  background-color: red;
+  color: white;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.taskUpdate {
+  padding: 5px;
+  font-size: 15px;
+  width: 100px;
+  height: 32px;
+  border: none;
+  border-radius: 30px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
